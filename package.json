@@ -1,0 +1,9 @@
+{
+ "name": "flutter_testdrive",
+ "version": "1.0.0",
+ "description": "Hello World test drive of flutter-view package",
+ "dependencies": {
+  "pug": "^3.0.2",
+  "typescript": "^4.5.2"
+ }
+}
