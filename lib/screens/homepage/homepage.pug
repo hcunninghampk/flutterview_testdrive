@@ -2,4 +2,8 @@ home-page(flutter-view)
     scaffold
         app-bar(as='appBar')
             #title(as='title') Welcome to Flutter-View
-        center(as='body').greeting Hello Flutter-View World!
+        center(as='body')
+            fitted-box
+                .cover 
+                //- Note this CSS class .greeting has to go on its own line for the dart code to gen correctly.  Don't append it to center(as='body'). IDK if the indent matters or is just convention for readability. 
+                .greeting Hello Flutter-View World!  
